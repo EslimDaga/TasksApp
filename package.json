@@ -6,7 +6,6 @@
   "scripts": {
     "install-client" : "npm install",
     "start": "node .",
-    "dev": "nodemon src/",
     "webpack": "webpack --mode development --watch"
   },
   "keywords": [],
