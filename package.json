@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "install-client" : "npm install",
-    "start": "node .",
+    "start": "node src/",
+    "dev": "nodemon src/",
     "webpack": "webpack --mode development --watch"
   },
   "keywords": [],
