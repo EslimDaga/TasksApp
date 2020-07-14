@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/Index.js",
+    "start": "node src/",
     "dev": "nodemon src/",
     "webpack": "webpack --mode development --watch"
   },
