@@ -1,0 +1,52 @@
+/**
+* color
+* border-color
+* background-linear-gradient
+*/
+
+
+/* color
+-------------------------------------------------------------- */
+.counter-type2 .content-counter .icon-count .icon,
+.services-box-type1 .iconbox-content .read-more a:hover,
+.services-box-type1 .iconbox-content .read-more a:hover:after {
+	color: #1da6e9;
+}
+
+/* border-color
+-------------------------------------------------------------- */
+.services-box-type1:hover .snow-dot {
+	background-color: #1da6e9;
+}
+
+/* background-linear-gradient
+-------------------------------------------------------------- */
+.green-dot {
+    background: rgb(58,123,213);
+    background: linear-gradient(90deg, rgba(58,123,213,1) 0%, rgba(0,210,255,1) 100%);
+}
+.custom-nav-one .owl-carousel .owl-nav .owl-prev:before,
+.custom-nav-three .owl-carousel .owl-nav .owl-prev:before {
+	background: rgb(58,123,213);
+    background: linear-gradient(90deg, rgba(58,123,213,1) 0%, rgba(0,210,255,1) 100%);
+}
+.services-box-type1 .iconbox-icon:before {
+	background: rgb(58,123,213);
+    background: linear-gradient(90deg, rgba(58,123,213,1) 0%, rgba(0,210,255,1) 100%);
+}
+#rev-slider1 ul li .btn-slider a:before {
+	background: rgb(58,123,213);
+    background: linear-gradient(90deg, rgba(58,123,213,1) 0%, rgba(0,210,255,1) 100%);
+}
+.custom-nav-one .owl-carousel .owl-nav .owl-next:before,
+.custom-nav-three .owl-carousel .owl-nav .owl-next:before {
+	background: rgb(0,210,255);
+    background: linear-gradient(90deg, rgba(0,210,255,1) 0%, rgba(58,123,213,1) 100%);
+}
+.linear-color-two .hv-linear {
+	background-image: linear-gradient(to right, #3a7bd5 0%, #00d2ff 50%, #3a7bd5 100%);
+}
+.custom-nav-two .owl-carousel .owl-nav .owl-next,
+.services-single .slider-sv .owl-carousel .owl-nav .owl-next {
+	background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 50%, #00d2ff 100%);
+}

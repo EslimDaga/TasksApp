@@ -1,0 +1,158 @@
+/**
+* color
+* border-color
+* background-color
+* background-linear-gradient
+*/
+
+
+/* color
+-------------------------------------------------------------- */
+#mainnav .menu > li > a:hover,
+#mainnav .menu > li > a.active,
+.lang-user .language-name > a:hover,
+.title-section .sub-heading.color-two,
+.title-section .sub-heading.color-one,
+.breadcrumbs-inner li a:hover,
+.images-box-portfolio .content-portfolio .title,
+.services-box-type2 .iconbox-icon,
+.services-box-type2 .iconbox-content .read-more a,
+.services-box-type2 .iconbox-content .read-more a:after,
+.testimonial-type1 .author-info .role,
+.testimonial-type1 .author-info .avatar .quotes-small .icon,
+.testimonial-type2 .author-info .avatar .quotes-small .icon,
+.counter-type1 .content-counter .icon-count .icon,
+.counter-type2 .content-counter .numb-count-wrap .numb-count,
+.blog-content .content-inside .btn-read-more a,
+.content-blog-single .title a:hover,
+.blog-grid .content-inside .post-meta .name-author,
+#footer #footer-widget .widget-social-media li a:hover,
+#footer #footer-widget .widget-social-media li a.active,
+#footer #footer-widget .widget-nav-menu li a:hover,
+.widget-archive ul li .post-time,
+.content-blog-single .title a:hover,
+.content-blog-single .post-meta li a:hover,
+.content-blog-single .post-meta li a.active,
+.widget-tags .tags-list a:hover,
+.services-box .iconbox-content .read-more a,
+.services-box .iconbox-content .read-more a:after,
+.testimonial-type3 .author-info .avatar .quotes-small .icon,
+.comment-content .comment-meta .comment-time {
+	color: #229d80;
+}
+
+/* border-color
+-------------------------------------------------------------- */
+textarea:focus, 
+input[type="text"]:focus, 
+input[type="password"]:focus, 
+input[type="datetime"]:focus, 
+input[type="datetime-local"]:focus, 
+input[type="date"]:focus, 
+input[type="month"]:focus, 
+input[type="time"]:focus, 
+input[type="week"]:focus, 
+input[type="number"]:focus, 
+input[type="email"]:focus, 
+input[type="url"]:focus, 
+input[type="search"]:focus, 
+input[type="tel"]:focus, 
+input[type="color"]:focus {
+    border: 1px solid #229d80;
+}
+#rev-slider1 .custom.tparrows,
+.portfolio-nav-custom .owl-carousel .owl-nav button:hover {
+	border: 2px solid #229d80;
+}
+.widget-tags .tags-list a:hover {
+	border: 1px solid #229d80;
+}
+.form-contact .text-wrap input:focus, 
+.form-contact .message-wrap textarea:focus {
+	border: 1px solid #229d80;
+}
+.contact-inside {
+	border: 3px dashed #229d80;
+}
+#mainnav-mobi ul li,
+#mainnav-mobi > ul > li > ul > li, 
+#mainnav-mobi > ul > li > ul > li > ul > li {
+	border-top: 1px solid rgba(34, 157, 128, 0.2);
+}
+
+/* background-color
+-------------------------------------------------------------- */
+.rectangle-1,
+.rectangle-2,
+.rectangle-3,
+#mainnav .menu > li > .sub-menu > li > a.active,
+#mainnav .menu > li > .sub-menu > li > a:hover,
+.lang-user .language-name > ul > li a.active, 
+.lang-user .language-name > ul > li a:hover,
+.team-members .content .ellipse-color,
+.team-manager .ellipse-color,
+.btn-menu:before, 
+.btn-menu:after, 
+.btn-menu span {
+	background-color: #229d80;
+}
+.team-members .content .ellipse-color:before {
+	background-color: rgba(34, 157, 128, 0.5);
+}
+.team-members .content .ellipse-color:after {
+	background-color: rgba(34, 157, 128, 0.3);
+}
+.snow-dot {
+	background-color: #a7efdb;
+}
+
+/* background-linear-gradient
+-------------------------------------------------------------- */
+.services-box-type1 .iconbox-icon {
+	background: rgb(71,123,113);
+    background: linear-gradient(90deg, rgba(71,123,113,1) 0%, rgba(0,191,143,1) 100%);
+}
+.sw-odd .sw-image .sw-buy {
+	background-image: linear-gradient(90deg, #477b71 0%, #00bf8f 100%);
+}
+.linear-color-one .hv-linear,
+.linear-color-three .hv-linear,
+.custom-nav-two .owl-carousel .owl-nav .owl-prev,
+.services-single .slider-sv .owl-carousel .owl-nav .owl-prev {
+	background-image: linear-gradient(to right, #477b71 0%, #00bf8f 50%, #477b71 100%);
+}
+.images-box-portfolio:before {
+	background: rgb(0,191,143);
+    background: linear-gradient(90deg, rgba(0,191,143,1) 0%, rgba(71,123,113,1) 100%);
+}
+.blog-grid .content-inside .hover-content {
+	background: rgb(0,191,143);
+    background: linear-gradient(90deg, rgba(0,191,143,1) 0%, rgba(71,123,113,1) 100%);
+}
+.flat-pagination ul li .page-numbers.current,
+.flat-pagination ul li .page-numbers:before {
+	background: rgb(0,191,143);
+    background: linear-gradient(90deg, rgba(0,191,143,1) 0%, rgba(71,123,113,1) 100%);
+}
+.lang-user .block:after {
+	background: rgb(71,123,113);
+    background: linear-gradient(90deg, rgba(71,123,113,1) 0%, rgba(0,191,143,1) 100%);
+}
+.widget-categories ul li .block-inside:before,
+.widget-categories ul li .block-inside.active {
+	background: rgb(71,123,113);
+    background: linear-gradient(90deg, rgba(71,123,113,1) 0%, rgba(0,191,143,1) 100%);
+}
+#scroll-top {
+	background: rgb(71,123,113);
+    background: linear-gradient(90deg, rgba(71,123,113,1) 0%, rgba(0,191,143,1) 100%);
+}
+.comment-wrap:before {
+	background: rgb(71,123,113);
+    background: linear-gradient(90deg, rgba(71,123,113,1) 0%, rgba(0,191,143,1) 100%);
+}
+#loading-overlay .loader:before,
+#loading-overlay .loader:after {
+    background: rgb(71,123,113);
+    background: linear-gradient(90deg, rgba(71,123,113,1) 0%, rgba(0,191,143,1) 100%);
+}
